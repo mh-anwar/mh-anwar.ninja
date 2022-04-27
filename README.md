@@ -18,8 +18,16 @@ docker run \
     sample:dev
 </pre>
 
-# Building
+# Building with Docker
 
-`docker build -f Dockerfile.prod -t prod .`
+`sudo docker build -f Dockerfile.prod -t mhanwar .`
 
-`docker run -it --rm -p 2500:80 prod`
+`sudo docker run -it --rm -p 2500:80 mhanwar`
+
+To run container in the background: `CTRL` + `P` and then `CTRL` + `Q`
+
+To stop the container: `sudo docker stop mhanwar`
+
+To remove the image, find the ID with: `sudo docker image ls`
+
+Then: `sudo docker image rmi image_id`
