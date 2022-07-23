@@ -1,3 +1,6 @@
+# Personal Website (under construction)
+- To be built with React and (most likely) Joy UI
+- Will use Docker, React, nginx and (potentially) node.js
 # Testing with Docker
 
 `npm install`
